@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .display {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+  body {
+      background: url(https://2.blogs.elcomercio.pe/operaperu/wp-content/uploads/sites/242/2016/03/12525089_950558475063537_724915788501168495_o.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      color: #fff;
+      font-family: 'Cabin', sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.4em;
+  }
+
+  /*--EMPIEZA HEADER--*/
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.header {
+    width: 100%;
+    background: #024959;
+    color:#fff;
+    padding: 2rem 0;
+}
+
+.header a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   /*ESTO VA PERMITIR QUE EL MENU ESTÉ CENTRADO Y EQUILIBRADO*/
+}
+
+.logo {
+    letter-spacing: 20px;
+    font-size: 1.4em;
+}
+.sitio-web ul {
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+}
+
+.sitio-web ul li {
+    display: inline-block;
+}
+
+.sitio-web ul a {
+    display: block;
+    padding: 0.5rem 2rem;
+    transition: all 0.4s linear;  /*CUANDO SE PASE EL MOUSE POR EL MENU SE VERÁ EL CAMBIO DE COLOR LEVE*/
+    border-radius: 7px;
+}
+
+.sitio-web ul a:hover {
+    background: #149c7f;
+}
+
+/*--EMPIEZA MAIN--*/
+.main {
+    width: 36%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 50px;
+    background: rgba(9, 59, 68, 0.71);
+}
+
+.main h2 {
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+ h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#grupo__usuario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grupo__tarjeta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#grupo__codigo {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.formulario__label {
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulario__grupo-input {
+    position: relative;
+}
+
+.formulario__input {
+    width: 80%;
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px 0 10px;
+    transition: .2s ease all;
+    text-transform: uppercase;
+}
+.formulario__input:focus {
+    border: 3px solid #144d39;
+    outline: none;
+}
+
+.formulario__validacion-estado {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+/*--BOTON VALIDAR --*/
+
+.formulario__grupo-btn-enviar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario__btn {
+    height: 45px;
+    line-height: 45px;
+    margin: 2em;
+    width: 30%;
+    background: #1b6a59;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s ease all;
+    font-size: 20px;
+}
+
+
+.formulario__btn:hover {
+    background: #268d21;
+}
+
+
+
+
+
+/*
+.footer {
+    background: #070707f1;
+    text-align: center;
+    position: block;
+}
+*/
+

@@ -2,13 +2,71 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <div class="container logo-nav-container">
+        <a href="#" class="logo">PERÚ TEATRO</a>
+        <nav class="sitio-web">
+          <ul>            
+          <li><a href="#"><span class="fas fa-home sitio-web--icon"> Nosotros</span></a></li>
+          <li><a href="#"><span class="fas fa-headset sitio-web--icon"> Contacto</span></a></li>
+          <li><a href="#"><span class="far fa-calendar-alt sitio-web--icon"> Eventos</span></a></li>
+        </ul>
+        </nav>
+        </div>
+    </header>
+    <main class="main">
+      <div class="container2">
+        <div class="titulo"></div>
+          <h2 id="maintext">Gracias por ver el talento Peruano</h2>
+      </div>
+      
+        <form action="" id="formulario" class="formulario">
+
+          <!--Grupo Usuario-->  
+          <div class="formulario__grupo" id="grupo__usuario">
+            <label for="usuario" class="formulario__label"> Usuario</label>
+            <div class="formulario__grupo-input">
+            <input type="text" class="formulario__input" name="usuario" id="usuario" pattern="[a-zA-Z]+" placeholder="Escribe tu nombre" autocomplete="off">
+          </div>
+        </div>
+
+        <!--Grupo Numero tarjeta-->  
+        <div class="formulario__grupo" id="grupo__tarjeta">
+          <label for="tarjeta" class="formulario__label"> Número de tarjeta</label>
+          <div class="formulario__grupo-input">
+          <input type="text" class="formulario__input" name="tarjeta" id="tarjeta" placeholder="#### #### #### ####" autocomplete="off">
+        </div>
+      </div>
+
+      <!--Grupo CCV-->  
+      <div class="formulario__grupo" id="grupo__codigo">
+        <label for="codigo" class="formulario__label"> CCV</label>
+        <div class="formulario__grupo-input">
+        <input type="text" class="formulario__input" name="codigo" id="codigo"  maxlength="3" pattern = "[0-9]+" placeholder="###" autocomplete="off">
+      </div>
+      
+    </div>
+
+    
+    <div id= "answer" class="formulario__grupo formulario__grupo-btn-enviar">
+      <button type="submit" class="formulario__btn" id="validateButton">Validar</button>
+    </div>
+
+        </form>
+    </main>
+    <!--
+    <footer class="footer">
+      <i class="fab fa-facebook"></i>
+      <i class="far fa-copyright">Copyright</i>
+    </footer> -->
     <script src="index.js" type="module"></script>
   </body>
 </html>
