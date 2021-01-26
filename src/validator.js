@@ -1,11 +1,12 @@
+// Dentro de isValid va a ir el algoritmo de Luhn
 const isValid = (numberCard) => {
     let  numeroArray = numberCard.split("").reverse(); //Separe un número de 2 digitos y sume cada digito
 console.log(numeroArray);
     let i;
   for (i = 0; i < numeroArray.length; i++) {   //Tome en cuenta los que son pares desde el cero, 2, ... (las posiciones)
 
-    if ((i+1) % 2 == 0) {  
-        let multiplicarNumero = numeroArray[i]*2;  //Si eso pasa dejalo multiplicar *2 y 
+    if ((i+1) % 2 == 0) {
+        let multiplicarNumero = numeroArray[i]*2;  //Si eso pasa dejalo multiplicar *2 y
 
 
         numeroArray[i] = multiplicarNumero.toString();   // lo convierto en string.
@@ -23,11 +24,11 @@ console.log(numeroArray);
   let total = 0;
   let index = 0;
 
-  for (index = 0; index < numeroArray.length; index++) {  // El index empieza desde cero 
+  for (index; index < numeroArray.length; index++) {  // El index empieza desde cero
     total = total + parseInt(numeroArray[index]);  //Está recorriendo un array
   }
 
-  
+
   console.log(total)
 
   if (total % 10 == 0) {
@@ -38,7 +39,7 @@ console.log(numeroArray);
 }
 
 
-// Ahora maskify
+// Ahora maskify: debe mostrarme los # y los últimos 4 dígitos
 
 const maskify = (numberCard) => {
     //Ocultar los digitos menos los ultimos 4
@@ -46,12 +47,12 @@ const maskify = (numberCard) => {
     if (numberCard.length > 4) {
         let reversed = reverse(numberCard);
         let nuevoNumeroString = "";
- 
-        for (let i = 0; i < reversed.length; i++) {  
+
+        for (let i = 0; i < reversed.length; i++) {  //Se le va a sumar un 1 al i ==> ++ significa aumentarle 1 más
             if (i < 4){
                 nuevoNumeroString += reversed[i];
             }else {
-                nuevoNumeroString += "#"  // Si no cumple con la condicional entonces que oculte con # 
+                nuevoNumeroString += "#"  // Si no cumple con la condicional entonces que oculte con #
             }
         }
 
@@ -60,7 +61,7 @@ const maskify = (numberCard) => {
     } else{
         return numberCard;
     }
-    
+
 }
 
 function reverse(str) {

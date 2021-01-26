@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   .display {
     display: block;
   }
@@ -70,6 +70,7 @@
     background: #149c7f;
 }
 
+
 /*--EMPIEZA MAIN--*/
 .main {
     width: 36%;
@@ -107,7 +108,7 @@
 #grupo__codigo {
     display: flex;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 .formulario__label {
     display: block;
@@ -172,9 +173,6 @@
 .formulario__btn:hover {
     background: #268d21;
 }
-
-
-
 
 
 /*

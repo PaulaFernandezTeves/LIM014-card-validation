@@ -122,26 +122,26 @@ Está en el archivo Proyecto PERU TEATRO
 
 Investigación UX:
 
-1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
+1.
 
-    Los usuarios son las personas que tengan una tarjeta débido o crédito y tengan el deseo de ver alguna obra teatro en línea, asi también a los que deseen ver una presentación de un cantante o banda de su preferencia. 
-    El objetivo principal de la página es ofrecer al usuario una experiencia de fácil uso para completar los requerimientos principales que se está solicitando para validar su compra, como los requisitos mínimos que son su nombre, el número de su carta y el código de seguridad. 
+    Los usuarios son las personas que tengan tarjeta débido o crédito y tengan el deseo de ver alguna obra teatro en línea, asi también a los que deseen ver una presentación de un cantante o banda de su preferencia.
+    El objetivo principal de la página es ofrecer al usuario una experiencia de fácil uso para completar los requerimientos principales que se está solicitando para validar su compra, como los requisitos mínimos que son su nombre, el número de su carta y el código de seguridad.
 
-2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
+2.
 
     El producto soluciona el problema al usuario, cuando tiene el deseo de ver una obra de teatro y/o presentación de música en vivo y evita que se tenga que dirigir al mismo establecimiento y comprar sus entradas. En la nueva normalidad que se está viviendo, es importante mantener la distancia y está prohibido la reuniones, es por ello que es una excelente alternativa para ver desde casa más obras de teatro, que no limiten el tiempo ni la distancia para el espectador. Cabe resaltar que algunas obras de teatro son grabadas y otras son en vivo.
 
-3. Luego colocarás la foto de tu primer prototipo en papel.
+3.
 
-   La foto se encuentra en documento aparte, titulado como "Primer prototipo en papel"
+   La foto se encuentra en documento aparte, titulado como "Primer prototipo en papel.jpeg".
 
 
-4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+4. 
 
-   El feedback que recibí de mi squad con respecto al diseño de mi prototipo es que debía cambiar de color el fondo de formulario ya que no se constrastaba bien con las letras. 
-   Luego, me comentaron es que les gustó mi <header> y que sería bueno disminuir el tamaño y la distancia de mi botón con los inputs del formulario. 
+   El feedback que recibí de mi squad con respecto al diseño de mi prototipo es que debía cambiar de color el fondo de formulario ya que no se constrastaba bien con las letras.
+   Luego, me comentaron es que les gustó mi <header> y que sería bueno disminuir el tamaño y la distancia de mi botón con los inputs del formulario. También, el orden que irían los inputs y el titulo de la página, y cambiar el botón, en vez que diga "Ingresar" sea "Validar".
 
-   
+
   5. Imagen del prototipo final.
+
+  La imagen se encuentra como documento aparte con el título "Imagen del Prototipo Final en papel.jpeg".
